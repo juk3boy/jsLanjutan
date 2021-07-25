@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: salmon;
+            text-align: center;
+        }
+
+        .nama {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 20px;
+            color: whitesmoke;
+            margin-top: 4px;
+        }
+
+        .nama span {
+            /* span itu diplaynya block makanya tidak bergerak -  kita harus rubah dl displyanya*/
+            display: inline-block;
+            transition: 0.3s;
+            margin: 3px;
+            cursor: pointer;
+        }
+
+        /* jikalau transisi membesar pd saat dihover */
+        .nama span:hover {
+            transform: scale(2) translateY(-10px);
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+        </script>
+
+    <!-- <ul>
+        <li>Budiman</li>
+        <li>Supriadi</li>
+        <li>Edwin</li>
+    </ul> -->
+
+    <h1 class="nama">YUDI KRISTIANTA</h1>
+
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
